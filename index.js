@@ -27,11 +27,11 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  kittens.splice(3, 0, "Broom")
+  kittens.splice(3, 0, 'Broom')
 }
 
 function prependKitten(name) {
-  kittens.splice(0, 0, "Arnold")
+  kittens.splice(0, 0, 'Arnold')
 }
 
 function removeLastKitten() {
